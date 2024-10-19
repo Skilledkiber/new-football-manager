@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: Arial;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-family: "Arial";
+}
+
+.logo strong {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacts {
+    align-items: center;
+    column-gap: 30px;
+}
+
+.contacts img {
+    margin-right: 7px;
+}
+
+.contacts p {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-family: "Arial";
+}
+
+.contacts a {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.img-wrap img {
+    width: 100%;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 30px 0 45px;
+    align-items: flex-start;
+    column-gap: 20px;
+}
+
+.menu {
+    min-width: 300px;
+}
+
+.menu a:hover {
+    color: #343434;
+    text-decoration: none;
+}
+
+.menu p {
+    margin-bottom: 15px;
+    padding: 13px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #39930d;
+}
+
+.menu a {
+    color: #39930d;
+    text-decoration: underline;
+}
+
+.menu ul {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+.article {
+    margin-right: 36px;
+}
+
+.article h1 {
+    margin-bottom: 17px;
+    margin-top: -5px;
+    font-size: 24px;
+    color: #39930d;
+}
+
+.article p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.footer {
+    padding: 15px 0;
+    background-color: #38930c;
+}
+
+.footer .wrapper {
+    background-color: #38930c;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.social.flex {
+    column-gap: 10px;
+}
+
+@media screen and (min-width: 960px) {
+    .flex {
+        flex-wrap: nowrap;
+    }
+}
